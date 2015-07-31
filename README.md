@@ -4,7 +4,8 @@ This project is based on a microcontroller TI MSP430
 
 An input that generates high/low signals is required (could be a telegraph key, a button)
 
-The code already does consider the button as an iuput, so you can try it out with out additional circuit set up
+The code already does consider the button as an iuput, so you can try it out with out additional circuit set up.
+P1.2 is already set up as an input port, so an external circuit can be connected to port 1.2
 
 Once the we press the button, meaning input is 0, a square wave output will be produced.
 
